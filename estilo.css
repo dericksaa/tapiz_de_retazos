@@ -1,0 +1,14 @@
+h1 {
+    font-family: rum raisin;
+    color:rgba(196, 177, 83, 1);
+    text-align: center;
+}
+
+p,h2,h3,button {
+    font-family: rum raisin;
+}
+
+header{
+    background-color: rgba(33, 33, 33, 1) ;
+}
+
