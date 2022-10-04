@@ -1,0 +1,94 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+html, body{
+    overflow-x: hidden;
+    background-image:url(./imagenes/rectangulo4.png);
+}
+
+h1 {
+    font-family: rum raisin;
+    color:rgba(196, 177, 83, 1);
+    text-align: center;
+    font-size: 96px;
+    margin: 0;
+    padding-top: 80px; 
+}
+
+button {
+    font-family: rum raisin;
+    width: 254px;
+    height: 63px;
+    border-radius: 30px ;
+    font-size: 36px ;
+    
+}
+
+
+.boton1{
+    background-color: rgba(156, 168, 190, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.boton2{
+    background-color: rgba(131, 121, 17, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.boton3{
+    background-color: rgba(76, 69, 47, 1);
+    border: none;
+    cursor: pointer;
+}
+
+header{
+    background-repeat: no-repeat;
+    height: 371px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.solpasto{
+    margin-top: 140px;
+}
+
+form{
+    font-family: rum raisin;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.fo{
+    width: 394px;
+    height: 81px;
+    border-radius: 30px;
+    padding-left: 40px;
+    border: 0;
+}
+
+.fobot{
+    width: 254px;
+    height: 63px;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgba(131, 121, 17, 1);
+    cursor: pointer;
+}
+
+.botones1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}

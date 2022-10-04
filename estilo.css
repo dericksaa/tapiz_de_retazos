@@ -1,14 +1,170 @@
+html, body{
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: rum raisin;
     color:rgba(196, 177, 83, 1);
     text-align: center;
+    font-size: 96px;
+    margin: 0;
+    padding-top: 80px; 
 }
 
-p,h2,h3,button {
+p{
     font-family: rum raisin;
+    font-size: 36px ;
+    color: rgba(30, 81, 41, 1);
+}
+
+h3{
+    font-family: rum raisin;
+    font-size: 50px ;
+    color: white;
+}
+
+h2{
+    position: relative;
+    left: 183px;
+    color: rgba(196, 177, 83, 1);
+    font-family: rum raisin;
+    font-size: 64px;
+}
+
+
+.botones1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    font-family: rum raisin;
+    border-radius: 30px ;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.boton1{
+    background-color: rgba(156, 168, 190, 1);  
+    width: 254px;
+    font-size: 36px ;
+    height: 53px;
+    padding-top: 10px;
+    
+}
+
+.boton2{
+    background-color: rgba(131, 121, 17, 1);
+    width: 254px;
+    font-size: 36px ;
+    height: 53px;
+    padding-top: 10px;
+}
+
+.boton3{
+    background-color: rgba(76, 69, 47, 1);
+    width: 254px;
+    font-size: 36px ;
+    height: 53px;
+    padding-top: 10px;
 }
 
 header{
-    background-color: rgba(33, 33, 33, 1) ;
+    background-image: url(./imagenes/rectangulo1.png);
+    background-repeat: no-repeat;
+    height: 371px;
 }
 
+.logoleyenda{
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.parrafo1{
+    position: relative;
+    left: 800px;
+    top: -450px;
+}
+
+.foto1{
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+.guachu{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+/*colocar un elemento al lado del otro en el mismo nivel*/
+
+.section1{
+    background-image: url(./imagenes/rectangulo2.png);
+    padding-top: 90px;
+    padding-bottom: 45px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    float: left;
+}
+
+.botones{
+    text-align: center;
+    margin: 100px;
+    height: 62px;
+}
+
+.boton4{
+    background-color: rgba(131, 121, 17, 1);
+    border: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 48px ;
+}
+
+.section2{
+    background-image: url(./imagenes/rectangulo3.png);
+    padding-bottom: 50px;
+    padding-top: 1px;
+    
+
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+.itemm{
+    float: left;
+}
+
+
+.container5{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.fotoo{
+    float: left;
+}
+
+.cocha{
+    text-align: center;
+}

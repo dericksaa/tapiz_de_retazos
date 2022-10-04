@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedalea Nariño</title>
-    <link rel="stylesheet" href="estilo.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="icon" href="./imagenes/sol.png">
 
 </head>
 <body>
@@ -17,12 +21,10 @@
     <header>
     <h1>PEDALEA EL TAPIZ DE RETAZOS </h1>
 
-    <img src="./imagenes/santuario.png" alt="">
-
     <div class="botones1">
-        <button>rutas</button>
-        <button>parche de ruta</button>
-        <button>social media</button>
+        <a href="#rutas" class="boton1">rutas</a>
+        <a href="#parches" class="boton2">parche de ruta</a>
+        <a href="#social" class="boton3">social media</a>
     </div>
     </header>
 
@@ -30,58 +32,107 @@
         <img src="./imagenes/sol.png" alt="Sol de los pastos">
     </div>
 
-    <div class="texto1">
-        <p>
-            Recorrer las montañas del departamento de Nariño por sus caminos ancestrales ahora 
-            convertidos en trochas, a bordo de una bicicleta con tus ganas de respirar y vivir la
-            magia que resguardan estas montañas. 
-        </p>
-    </div>
+    <!-- Windows: [CTRL] + K (Vscode queda a la espera). Después pulsa [CTRL] + C para comentar y [CTRL] 
+    + U para descomentar. -->
+
+    <p class="parrafo1">
+            Recorrer las montañas del <br> departamento de Nariño por sus <br> caminos ancestrales ahora <br> 
+            convertidos en trochas, a bordo de <br> una bicicleta con tus ganas de <br> respirar y vivir la <br>
+            magia que resguardan estas <br> montañas. 
+    </p>
+
 
     <div class="foto1">
-    <img src="./imagenes/image3.png" alt="nariño guachucal bici de montaña">
+        <img class="guachu" src="./imagenes/image3.png" alt="nariño guachucal bici de montaña">
     </div>
 
-    <h2>Parches de ruta</h2>
-    <p>Parchate el fin de semana en 
-        compañia de mas amantes del ciclismo y comparte la experiencia de reorrer magicos senderos. 
-    </p>
-    <img src="./imagenes/imagen2.png" alt="nariño bici del montaña">
-    <button>Parchate Aquí</button>
+    <section class="section1" id="parches">
+        <h2>Parches de ruta</h2>
 
-    <h2>Rutas</h2>
+    <!--a continuacion se coloca un elemento al lado de otro-->
+    
+        <div class="container1">
+            <div class="item" id="item1">
+                <p>Parchate el fin de semana en <br>
+                    compañia de mas amantes del <br> 
+                    ciclismo y comparte la experiencia <br>
+                    de reorrer magicos senderos. 
+                </p>
+            </div>
 
-    <div class="rutas">
-        <img src="./imagenes/santuario.png" alt="santuario de las lajas">
-        <div class="santuario_texto">
+            <div>
+                <img src="./imagenes/imagen2.png" alt="nariño bici del montaña" class="item" id="item2">
+            </div>
+
+        </div>
+
+        <div class="botones">
+            <a class="boton4" href="./tapiz_uno.html">Parchate aquí</a>
+        </div>
+            
+            
+
+    </section>
+
+
+
+    
+    
+    <section class="section2" id="rutas">
+        <h2>Rutas</h2>
+
+    <div class="container2">
+        <div class="itemm" id="item1">
             <h3>
                 Santuario de las lajas
             </h3>
         </div>
+        <div>
+            <img class="itemm" id="item2" src="./imagenes/santuario.png" alt="santuario de las lajas">
+        </div>
+    </div>
 
-        <img src="./imagenes/pueblos.png" alt="funes nariño">
-        <div class="puebliando_texto">
+
+    <div class="container2">
+        <div>
+            <img class="itemmm" id="item1" src="./imagenes/pueblos.png" alt="funes nariño">
+        </div>
+        <div class="itemmm" id="item2">
             <h3>
                 Puebliando Pasto - Ipiales
             </h3>
         </div>
-
-        <img src="./imagenes/laguna.png" alt="laguna de la cocha">
-        <div class="laguna_texto">
-            <h3>
-                Laguna de la cocha - Pasto 
-            </h3>
-        </div>
-
     </div>
 
-    <section>
-        <div class="social">
-            <h2> Social Media</h2>
-            <button><img src="./imagenes/insta.png" alt="fa-instagram"></button>
-            <img src="./imagenes/tik tok.png" alt="Tik tok">
-            <img src="./imagenes/twitter.png" alt="fa-twitter">
+    <div class="container2">
+        <div class="itemmmm" id="item1">
+            <h3 class="cocha">
+                Laguna de la cocha <br> Pasto 
+            </h3>
+        </div>
+        <div>
+            <img class="itemmmm" id="item2" src="./imagenes/laguna.png" alt="laguna de la cocha">
+        </div>
+    </div>
+    </section>
+    
 
+    <section id="social">
+        <h2> Social Media</h2>
+
+        <div class="container5">
+            <div>
+                <img src="./imagenes/insta.png" alt="fa-instagram" class="fotoo" id="fotoo1">
+            </div>
+                
+            <div>
+                <img src="./imagenes/tik tok.png" alt="Tik tok" class="fotoo" id="fotoo2">
+            </div>
+            
+            <div>
+                <img src="./imagenes/twitter.png" alt="fa-twitter" class="fotoo" id="fotoo3">
+            </div>
+            
         </div>
     </section>
 
